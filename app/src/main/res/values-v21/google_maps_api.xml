@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=0C:73:D8:71:8C:D1:B6:5B:59:E8:07:06:7C:85:6C:BA:26:5A:61:BE%3Bcubeproxima.com.mylocationtracking
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    0C:73:D8:71:8C:D1:B6:5B:59:E8:07:06:7C:85:6C:BA:26:5A:61:BE
+
+    SHA-1 certificate fingerprint:
+    0C:73:D8:71:8C:D1:B6:5B:59:E8:07:06:7C:85:6C:BA:26:5A:61:BE
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCMVBffuy-_REHRxYP8XyepGfLlCyE7RMw</string>
+</resources>

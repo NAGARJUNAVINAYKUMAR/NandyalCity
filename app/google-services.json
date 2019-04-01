@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "993078581937",
+    "firebase_url": "https://nandyalcity-d0e1c.firebaseio.com",
+    "project_id": "nandyalcity-d0e1c",
+    "storage_bucket": "nandyalcity-d0e1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993078581937:android:871820748cf5edbc",
+        "android_client_info": {
+          "package_name": "com.gathratechnal.nandyalcity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993078581937-noh1vncqjtslsqetm8gc841efjfn6vra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gathratechnal.nandyalcity",
+            "certificate_hash": "0c73d8718cd1b65b59e807067c856cba265a61be"
+          }
+        },
+        {
+          "client_id": "993078581937-p9pasr7r0b3r5hs4tt0pfsijljke1q3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOCvh-MuiIsXUBUcH37fTfbuXdGjgQYBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993078581937-p9pasr7r0b3r5hs4tt0pfsijljke1q3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

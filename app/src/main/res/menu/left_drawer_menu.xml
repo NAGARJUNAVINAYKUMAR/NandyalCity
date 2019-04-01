@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home_portal"
+            android:icon="@drawable/circle_bg"
+            android:title="@string/home_portal" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/circle_bg"
+            android:title="@string/history" />
+        <item
+            android:id="@+id/nav_ads"
+            android:icon="@drawable/circle_bg"
+            android:title="@string/ads" />
+        <item
+            android:id="@+id/nav_deals"
+            android:icon="@drawable/circle_bg"
+            android:title="@string/deals" />
+        <item
+            android:id="@+id/nav_web_page"
+            android:icon="@drawable/circle_bg"
+            android:title="@string/web_Page" />
+
+        <item
+            android:id="@+id/nav_directory"
+            android:icon="@drawable/circle_bg"
+            android:title="@string/directory" />
+
+
+        <item
+            android:id="@+id/nav_ambulance"
+            android:icon="@drawable/circle_bg"
+            android:title="@string/ambulance_booking" />
+
+
+        <item
+            android:id="@+id/nav_donate_blood"
+
+            android:icon="@drawable/circle_bg"
+            android:visible="false"
+            android:title="@string/donate_blood" />
+        <item
+            android:visible="false"
+            android:id="@+id/nav_rchrge_bills"
+            android:icon="@drawable/circle_bg"
+            android:title="@string/recharge_n_bills" />
+    </group>
+
+
+
+</menu>

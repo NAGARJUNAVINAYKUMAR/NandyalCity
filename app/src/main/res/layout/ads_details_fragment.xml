@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"
+            android:padding="10dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ad_dtl_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="3dp">
+
+
+                <ImageView
+                    android:id="@+id/ad_dtl_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_slides_height"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ic_launcher" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/txt_ad_dtl_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ad_dtl_card"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/pink"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_ad__dtl_deatils"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_ad_dtl_title"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="details"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_expiry_dtl_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_ad__dtl_deatils"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="@color/pink" />
+
+            <TextView
+                android:id="@+id/txt_dtl_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txt_ad__dtl_deatils"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/txt_expiry_dtl_date"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="
+"
+                android:textColor="@color/pink" />
+
+            <Button
+                android:id="@+id/ib_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_dtl_mobile"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_indicator_selected"
+                android:backgroundTint="@color/white"
+                android:text="web"
+                android:textColor="@color/colorPrimary"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/ib_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/txt_dtl_mobile"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/circle_indicator_selected"
+                android:backgroundTint="@color/white"
+                android:padding="5dp"
+                android:text="App"
+                android:textColor="@color/colorPrimary"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

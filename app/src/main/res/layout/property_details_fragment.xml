@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"
+            android:padding="10dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ad_dtl_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/property_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/home_slides_height"
+                        android:layout_alignParentTop="true" />
+
+                    <me.relex.circleindicator.CircleIndicator
+                        android:id="@+id/property_indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="bottom|center"
+                        app:ci_drawable="@drawable/circle_indicator_selected"
+                        app:ci_drawable_unselected="@drawable/circle_radius_unselected"
+                        app:ci_width="6dp" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/property_dtl_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ad_dtl_card"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/pink"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/property_dtl_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/property_dtl_title"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/pink"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/property_dtl_amt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/property_dtl_type"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_dtls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/property_dtl_amt"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Details"
+                    android:textColor="@color/pink"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/property_dtl_deatils"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/buttonshape"
+                    android:padding="10dp"
+                    android:text="details"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/property_expiry_dtl_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_dtls"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="09-09-1882"
+                android:textColor="@color/pink" />
+
+            <TextView
+                android:id="@+id/property_dtl_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ll_dtls"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/property_expiry_dtl_date"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="mobile"
+                android:textColor="@color/pink" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

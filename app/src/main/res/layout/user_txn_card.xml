@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/user_txn_net_img"
+            android:layout_width="55dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher" />
+
+
+        <TextView
+            android:id="@+id/user_txn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/user_txn_net_img"
+            android:text="8341223637"
+
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/user_txn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_txn_no"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/user_txn_net_img"
+            android:text="2234554354"
+
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/user_txn_rc_amt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_txn_id"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/user_txn_net_img"
+            android:text="120"
+
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/user_txn_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/user_txn_no"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/user_txn_id"
+            android:gravity="right"
+            android:text="@string/success"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+           />
+
+        <TextView
+
+            android:id="@+id/user_txn_rc_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/user_txn_status"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:layout_toRightOf="@id/user_txn_rc_amt"
+            android:gravity="right"
+            android:text="date"
+            android:textSize="15dp"
+            />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

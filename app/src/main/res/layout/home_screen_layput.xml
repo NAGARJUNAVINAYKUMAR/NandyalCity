@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_activity_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:orientation="vertical">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_alignParentTop="true" />
+
+                <me.relex.circleindicator.CircleIndicator
+                    android:id="@+id/indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="bottom|center"
+                    app:ci_drawable="@drawable/circle_indicator_selected"
+                    app:ci_drawable_unselected="@drawable/circle_radius_unselected"
+                    app:ci_width="6dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/ll_recharge_n_bills"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    app:cardElevation="1dp">
+
+                    <ImageView
+                        android:id="@+id/home_recharge"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
+                        android:layout_gravity="center"
+                        android:src="@drawable/recharge_billpay_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginTop="@dimen/home_text_margin_top"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="@string/recharge_n_bill_pay"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/ll_ticket_booking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="1dp"
+                    app:cardElevation="1dp">
+
+                    <ImageView
+                        android:id="@+id/home_bus"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bus_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginTop="@dimen/home_text_margin_top"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="@string/bus_ticket_booking"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/ll_nandyal_vip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    app:cardElevation="1dp">
+
+                    <ImageView
+                        android:id="@+id/home_nandyal_vip"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
+                        android:layout_gravity="center"
+                        android:src="@drawable/vip" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginTop="@dimen/home_text_margin_top"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="@string/nandyal_vip"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="1dp"
+                    app:cardElevation="1dp">
+
+                    <ImageView
+                        android:id="@+id/home_blood_donation"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
+                        android:layout_gravity="center"
+                        android:src="@drawable/blood_donors_list_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginTop="@dimen/home_text_margin_top"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="@string/blood_donors_list"
+                        android:textColor="@color/black"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/ll_webpages"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    app:cardElevation="1dp">
+
+                    <ImageView
+                        android:id="@+id/home_webpages"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
+                        android:layout_gravity="center"
+                        android:src="@drawable/webpage" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginTop="@dimen/home_text_margin_top"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:text="Web Pages"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <include
+                layout="@layout/property_home_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+            </include>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ambulance_tracking_cardVIew"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="5dp"
+                android:padding="1dp"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:text="Ambulance service"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/select_textView"
+                            android:layout_toStartOf="@+id/select_textView"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/select_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="1"
+                            android:text="Select"
+                            android:background="@color/dot_light_screen1"
+                            android:padding="6dp"
+                            android:textColor="@android:color/white"
+                            android:layout_alignParentRight="true"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+
+                    <ImageView
+                        android:id="@+id/ambulance_tracking_imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/ic_ambulance" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="1dp">
+
+                <ImageView
+                    android:id="@+id/iv_directory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/directory_image" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

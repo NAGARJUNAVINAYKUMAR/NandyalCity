@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">NandyalCity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="no_contacts_permission">No contacts permission </string>
+    <string name="ok">ok</string>
+
+    <!--Registration-->
+    <string name="register">Register</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_mobile">Mobile</string>
+    <string name="hint_dob">MM"/"dd"/"yyyy</string>
+    <string name="hint_gender">Gender</string>
+    <string name="email_mobile">Email "/" Mobile</string>
+
+    <!--Change Password-->
+
+    <string name="confirm_password">Confirm password</string>
+    <string name="new_password">New password</string>
+    <string name="update_password">update</string>
+    <string name="change_password">Change Password</string>
+    <string name="update">Update</string>
+    <string name="submit_button">submit</string>
+
+
+    <!--profileUpdate-->
+    <string name="profile_name">Enter Name</string>
+    <string name="profile_mobile">Enter Mobile</string>
+    <string name="profile_emailid">Enter email Id</string>
+    <string name="profile_dob">Date of Birth</string>
+    <string name="profile_details">Address</string>
+    <string name="profile_password">Enter password</string>
+
+    <!--Login-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Login</string>
+
+    <string name="retry">Retry</string>
+    <string name="success">Success</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="no_connection">No Internet Connection. Please check your Internet connection</string>
+
+    <string name="submit">Get New Password</string>
+
+    <!--ERROR-->
+    <string name="error_field_required">This field is required</string>
+
+    <string name="rupee">₹</string>
+    <string name="profile">Profile</string>
+    <string name="mobile_pin">Mobile Pin</string>
+    <string name="password">Password</string>
+    <string name="notification">Notifications</string>
+    <string name="exit">Exit Nandyal City</string>
+    <string name="ads">Ads</string>
+    <string name="deals">Deals</string>
+    <string name="web_Page">Web Page</string>
+    <string name="directory">Directory</string>
+    <string name="ambulance_booking">Ambulance Booking</string>
+    <string name="donate_blood">Donate Blood</string>
+    <string name="recharge_n_bills"><![CDATA[Recharge & Bills]]></string>
+    <string name="recharge_n_bill_pay"><![CDATA[Recharge & Bills Pay]]></string>
+    <string name="bus_ticket_booking">Ticket Booking</string>
+    <string name="blood_donors_list">Blood Donors List</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="enter_mobile">Enter Mobile No</string>
+    <string name="enter_amt">Enter Recharge Amt</string>
+    <string name="enter_coupon_code">Enter Coupon Code</string>
+    <string name="apply">Apply</string>
+    <string name="enter_account_no">Enter Account No</string>
+    <string name="enter_std_code">Enter STD code</string>
+    <string name="enter_recharge_amt">Enter Recharge Amt</string>
+    <string name="terms_conditions">I agree Terms &amp; conditions </string>
+    <string name="home_portal">Home Portal</string>
+    <string name="history">History</string>
+    <string name="nandyal_vip">Nandyal VIP\'s</string>
+    <string name="transfer">Transfer</string>
+
+
+    <string-array name="blood_group_array">
+        <item>Choose Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>A1+</item>
+        <item>A1-</item>
+        <item>A1B+</item>
+        <item>A1B-</item>
+        <item>A2B+</item>
+        <item>A2B-</item>
+        <item>A2+</item>
+        <item>A2-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>INRA</item>
+        <item>Bombay Blood Group</item>
+    </string-array>
+
+    <string-array name="paymentOption">
+        <item>Select Payment Option</item>
+        <item>Net Banking</item>
+        <!--  <item>Wallet</item>  -->
+    </string-array>
+    <string-array name="property_mode_array">
+        <item>Select Mode</item>
+        <item>Rent</item>
+        <item>Sale</item>
+    </string-array>
+    <string-array name="property_type_array">
+        <item>Select Property Type</item>
+        <item>1 BHK</item>
+        <item>2 BHK</item>
+        <item>3 BHK</item>
+        <item>4 BHK</item>
+        <item>Villa</item>
+        <item>Appartment</item>
+        <item>Pent House</item>
+        <item>Form House</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="bank">
+        <item>Select Bank</item>
+        <item>Atom Bank</item>
+    </string-array>
+
+    <string-array name="paymentMode">
+        <item>Select Payment Mode</item>
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+    </string-array>
+    <string-array name="cardAssociate">
+        <item>Select Card Type</item>
+        <item>VISA</item>
+        <item>Maestro</item>
+        <item>Master</item>
+    </string-array>
+    <string name="title_activity_chat_window">ChatWindowActivity</string>
+    <string name="journey_start">Journey From</string>
+    <string name="journey_end">Journey End</string>
+    <string name="journey_date">Journey Date</string>
+    <string name="rs">\u20B9 </string>
+    <string name="ambulance">Book Ambulance</string>
+
+    <string name="no_location_detected">
+        No location detected. Make sure location is enabled on the device.
+    </string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="reenter_password">Reenter password</string>
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="last_update_time_label">Last location update time</string>
+
+</resources>
